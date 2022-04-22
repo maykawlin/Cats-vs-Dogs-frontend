@@ -17,7 +17,7 @@ elif add_selectbox == 'Neural Network':
 elif add_selectbox == 'Classificator':
     st.title('Classificator')
     st.write("Drag into the box or click in 'browse files' to pick a file and classify in dog or cat.")
-    st.file_uploader('',accept_multiple_files=True)
+    INPUT_IMAGE = st.file_uploader('',accept_multiple_files=True)
 
 
 else:
